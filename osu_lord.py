@@ -110,7 +110,7 @@ async def come(ctx):
 @bot.command()
 async def play(ctx, song_name):
     if not ctx.message.author.voice:
-        await ctx.send("Osu Lord sees no nerd around.".format(ctx.message.author.name))
+        await ctx.send("Osu Lord sees no nerd around. You antisocial.".format(ctx.message.author.name))
         return
     else:
         channel = ctx.message.author.voice.channel
