@@ -106,6 +106,7 @@ async def come(ctx):
         else:
         	await ctx.send("Do you even have eyes? I'm right here!")
 
+#extra comment im adding cuz yes
 @bot.command()
 async def play(ctx, song_name):
     if not ctx.message.author.voice:
